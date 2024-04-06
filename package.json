@@ -1,5 +1,4 @@
 {
-  "homepage": "https://antebantez.github.io/github-pages-test",
   "name": "github-pages-test",
   "private": true,
   "version": "0.0.0",
@@ -11,8 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/bootstrap": "^5.2.10",
+    "@types/react-bootstrap": "^0.32.36",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
