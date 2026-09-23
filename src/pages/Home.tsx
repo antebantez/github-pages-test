@@ -13,7 +13,7 @@ const Home = () => {
             <nav className="nav-wrap" aria-label="Primary navigation">
                 <Link className="brand" to="/" aria-label="Home">
                     <span className="brand-mark">A</span>
-                    <span>ante<span className="brand-dot">.</span></span>
+                    <span>Anton Olsson</span>
                 </Link>
                 <Link className="nav-link" to="/contact">
                     Let&apos;s talk <span aria-hidden="true">↗</span>
@@ -59,7 +59,7 @@ const Home = () => {
             </section>
 
             <footer className="footer">
-                <span>© {new Date().getFullYear()} Ante Bantez</span>
+                <span>© {new Date().getFullYear()} Anton Olsson</span>
                 <span>Built with intention <span className="footer-heart">✦</span></span>
             </footer>
         </main>
