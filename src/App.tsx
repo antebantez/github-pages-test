@@ -1,13 +1,13 @@
 import {
     Route,
-    createBrowserRouter,
+    createHashRouter,
     createRoutesFromElements,
     RouterProvider,
 } from "react-router-dom"
 import Home from "./pages/Home"
 import Contact from "./pages/Contact"
 
-const router = createBrowserRouter(
+const router = createHashRouter(
     createRoutesFromElements(
         <>
             <Route path="/" element={<Home />} />
@@ -17,11 +17,7 @@ const router = createBrowserRouter(
 )
 
 function App() {
-    return (
-        <>
-            <RouterProvider router={router} />
-        </>
-    )
+    return <RouterProvider router={router} />
 }
 
 export default App
